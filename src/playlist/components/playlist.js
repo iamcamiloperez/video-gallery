@@ -11,7 +11,7 @@ import './playlist.css';
 function Playlist(props){
   //Toma los datos solo de una categoría - array playlist del data
   return(
-    <div className="row"      
+    <div className="row text-center"      
       >
       {
         //Iteración sobre cada elemento de playlist

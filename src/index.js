@@ -21,7 +21,7 @@ import Home from '../src/pages/containers/home.js'
 import data from './api.json';
 
 //root es el id del index.html de public
-const root = document.getElementById('root');
+const root = document.getElementById('home-video');
 //ReactDOM.render(<App />, root);
 render(<Home data={data}/>, root);
 

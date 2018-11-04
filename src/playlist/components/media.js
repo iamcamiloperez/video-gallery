@@ -27,12 +27,14 @@ class Media extends PureComponent{
     //title,year,score,description,director,running,type,cover,src,id
     const {title,year,scrore,description,director,running,type,cover,score} = this.props;
     return(
-          <div className="col-12 offset-1 col-md-4 col-lg-3">
+          <div className="mt-4 col-10 offset-1 col-md-4 offset-md-0 col-lg-4">
             <div className="card">
               <img className="card-img-top pointer"
                 src={cover}
                 alt="Card image cap"
                 height="300em"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
                 />
               <div className="card-body">
                 <h5 className="card-title">{title} ({year})</h5>

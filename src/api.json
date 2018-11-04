@@ -52,18 +52,6 @@
           "cover": "./images/covers/it-img.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
-        },
-        {
-          "title": "It",
-          "year": 2017,
-          "score":80,
-          "description":"Varios niños de una pequeña ciudad se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo." ,
-          "director":"Andy Muschietti",
-          "running":135,
-          "type": "video",
-          "cover": "./images/covers/it-img.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 5
         }
       ]
     },
@@ -86,7 +74,7 @@
           "type": "video",
           "cover": "./images/covers/midnight.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 5
+          "id": 2
         },
         {
           "title": "Solar Sailer",
@@ -94,7 +82,7 @@
           "type": "video",
           "cover": "./images/covers/solar-sailer.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 2
+          "id": 3
         },
         {
           "title": "The social network",
@@ -103,14 +91,6 @@
           "cover": "./images/covers/social.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
-        },
-        {
-          "title": "No vaya a ser",
-          "author": "Pablo Alboran",
-          "type": "video",
-          "cover": "./images/covers/no-vaya-a-ser.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
         }
       ]
     },
@@ -133,7 +113,7 @@
           "type": "video",
           "cover": "./images/covers/echame-la-culpa.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
+          "id": 2
         },
         {
           "title": "Mi Gente",
@@ -141,7 +121,7 @@
           "type": "video",
           "cover": "./images/covers/mi-gente.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 2
+          "id": 3
         },
         {
           "title": "Felices los 4",
@@ -150,14 +130,6 @@
           "cover": "./images/covers/felices.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
-        },
-        {
-          "title": "Me Rehúso",
-          "author": "Danny Ocean",
-          "type": "video",
-          "cover": "./images/covers/rehuso.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 5
         }
       ]
     }
