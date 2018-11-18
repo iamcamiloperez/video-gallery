@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -46,4 +47,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 =======
 # video-gallery
 Galería de videos creada con react y bootstrap
+>>>>>>> origin/master
+=======
+# video-gallery
+Galeria de videos creada con React
 >>>>>>> origin/master
