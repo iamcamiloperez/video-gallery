@@ -1,31 +1,54 @@
-import React,{Component} from 'react';
-import HomeLayout from '../components/home-layout.js';
+import React, { Component } from 'react';
+import HomeLayout from '../components/home-layout';
 import Categories from '../../categories/components/categories';
-import Related from '../components/related.js';
-import ModalContainer from '../../widgets/containers/ModalContainer.js';
-import Modal from '../../widgets/components/modal.js';
-import HandleError from '../../error/containers/handle-error.js';
-import VideoPlayer from '../../player/containers/player-video.js';
+import Related from '../components/related';
+import ModalContainer from '../../widgets/containers/modal';
+import Modal from '../../widgets/components/modal';
+import HandleError from '../../error/containers/handle-error';
+import VideoPlayer from '../../player/containers/video-player';
 
-class Home extends Component{
-
-  render(){
-
-      return(
-        <HandleError>
-          <VideoPlayer>
-          </VideoPlayer>
-          <HomeLayout>
-            <Related/>
-            <Categories categories={this.props.data.categories}/>
+class Home extends Component {
+  state = {
+    modalVisible: false,
+  }
+  handleOpenModal = (media) => {
+    this.setState({
+      modalVisible: true,
+      media
+    })
+  }
+  handleCloseModal = (event) => {
+    this.setState({
+      modalVisible: false,
+    })
+  }
+  render() {
+    return (
+      <HandleError>
+        <HomeLayout>
+          <Related />
+          <Categories
+            categories={this.props.data.categories}
+            handleOpenModal={this.handleOpenModal}
+          />
+          {
+            this.state.modalVisible &&
             <ModalContainer>
-              <Modal>
+              <Modal
+                handleClick={this.handleCloseModal}
+              >
+                <VideoPlayer
+                  autoplay
+                  src={this.state.media.src}
+                  title={this.state.media.title}
+                />
               </Modal>
             </ModalContainer>
-          </HomeLayout>
-        </HandleError>
-      )
-    }
+          }
+        </HomeLayout>
+      </HandleError>
+    )
+  }
 }
 
 export default Home

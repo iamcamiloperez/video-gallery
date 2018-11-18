@@ -1,21 +1,25 @@
 import React from 'react';
-import Category from './category.js';
+import Category from './category';
 import './categories.css';
-import SearchContainer from '../../widgets/containers/searchContainer.js'
+import Search from '../../widgets/containers/search';
 
-function Categories(props){
-    return(
-      <div className="Categories">
-        <SearchContainer>
-
-        </SearchContainer>
-        {
-          props.categories.map((item)=>{
-            return <Category key={item.id} {...item}/>
-          })
-        }
-      </div>
-    )
+function Categories(props) {
+  return (
+    <div className="Categories">
+      <Search />
+      {
+        props.categories.map((item) =>{
+          return (
+            <Category
+              key={item.id}
+              {...item}
+              handleOpenModal={props.handleOpenModal}
+            />
+          )
+        })
+      }
+    </div>
+  )
 }
 
-export default Categories;
+export default Categories

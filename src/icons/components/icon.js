@@ -1,12 +1,15 @@
 import React from 'react';
 
-function Icon(props){
-  const {color, size,} = props
-  return(
+function Icon(props) {
+  const {
+    color,
+    size,
+  } = props
+  return (
     <svg
       fill={color}
-      width={size}
       height={size}
+      width={size}
       viewBox="0 0 32 32"
     >
       {props.children}
@@ -14,4 +17,4 @@ function Icon(props){
   )
 }
 
-export default Icon;
+export default Icon

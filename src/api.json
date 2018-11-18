@@ -2,56 +2,48 @@
   "categories": [
     {
       "id": 1,
-      "description": "Terror",
-      "title": "Terror",
+      "description": "Lo mejor de la semana",
+      "title": "Destacados",
       "playlist": [
         {
-          "title": "It",
-          "year": 2017,
-          "score":80,
-          "description":"Varios niños de una pequeña ciudad se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo." ,
-          "director":"Andy Muschietti",
-          "running":135,
+          "title": "¿Qué es responsive Design?",
+          "author": "LeonidasEsteban",
           "type": "video",
-          "cover": "./images/covers/it-img.jpg",
+          "cover": "./images/covers/responsive.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 1
         },
         {
-          "title": "It",
-          "year": 2017,
-          "score":80,
-          "description":"Varios niños de una pequeña ciudad se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo." ,
-          "director":"Andy Muschietti",
-          "running":135,
+          "title": "Cómo optimzar la carga de un website",
+          "author": "LeonidasEsteban",
           "type": "video",
-          "cover": "./images/covers/it-img.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/optimizar.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 2
         },
         {
-          "title": "It",
-          "year": 2017,
-          "score":80,
-          "description":"Varios niños de una pequeña ciudad se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo." ,
-          "director":"Andy Muschietti",
-          "running":135,
+          "title": "Qué es Bitcoin",
+          "author": "Yograterol",
           "type": "video",
-          "cover": "./images/covers/it-img.jpg",
+          "cover": "./images/covers/bitcoin.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 3
         },
         {
-          "title": "It",
-          "year": 2017,
-          "score":80,
-          "description":"Varios niños de una pequeña ciudad se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo." ,
-          "director":"Andy Muschietti",
-          "running":135,
+          "title": "Que pasó con HTML5",
+          "author": "Freddier",
           "type": "video",
-          "cover": "./images/covers/it-img.jpg",
+          "cover": "./images/covers/html5.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
         }
       ]
     },
@@ -74,7 +66,7 @@
           "type": "video",
           "cover": "./images/covers/midnight.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 2
+          "id": 5
         },
         {
           "title": "Solar Sailer",
@@ -82,7 +74,7 @@
           "type": "video",
           "cover": "./images/covers/solar-sailer.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
+          "id": 2
         },
         {
           "title": "The social network",
@@ -91,6 +83,14 @@
           "cover": "./images/covers/social.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
+        },
+        {
+          "title": "No vaya a ser",
+          "author": "Pablo Alboran",
+          "type": "video",
+          "cover": "./images/covers/no-vaya-a-ser.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
         }
       ]
     },
@@ -113,7 +113,7 @@
           "type": "video",
           "cover": "./images/covers/echame-la-culpa.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 2
+          "id": 3
         },
         {
           "title": "Mi Gente",
@@ -121,7 +121,7 @@
           "type": "video",
           "cover": "./images/covers/mi-gente.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
+          "id": 2
         },
         {
           "title": "Felices los 4",
@@ -130,6 +130,14 @@
           "cover": "./images/covers/felices.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
           "id": 4
+        },
+        {
+          "title": "Me Rehúso",
+          "author": "Danny Ocean",
+          "type": "video",
+          "cover": "./images/covers/rehuso.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
         }
       ]
     }
